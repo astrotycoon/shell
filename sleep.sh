@@ -11,6 +11,7 @@ do
 	sleep 1;
 	tput rc
 	tput ed
+#	tput clear
 	echo -n $count;
 	else exit 0;
 	fi
